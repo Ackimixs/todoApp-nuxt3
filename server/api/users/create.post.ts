@@ -1,7 +1,7 @@
 import { Users } from '~/src/users'
 import { UserModel } from "~/src/models";
 import { tryWraps } from "~/helpers/tryWraps";
-import {defineEventHandler, sendRedirect, useBody} from "h3";
+import {defineEventHandler, useBody} from "h3";
 
 const users = new Users(UserModel)
 
